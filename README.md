@@ -1,4 +1,4 @@
 # lgastako
 
-My blog.
+[My blog](https://lgastako.github.io).
 
