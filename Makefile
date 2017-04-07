@@ -30,6 +30,10 @@ deploy:
 			 --filter='P .stack-work' \
 			 --delete-excluded        \
 			 _site/ .
+	git add -A
+	git commit -m "Publish."
+	git push origin master:master
+	git checkout develop
 
 s: setup
 b: build
