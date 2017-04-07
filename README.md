@@ -1,0 +1,4 @@
+# lgastako
+
+My blog.
+
