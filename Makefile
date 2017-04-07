@@ -1,11 +1,21 @@
+EXE=lgastako
+
 help:
 	@cat Makefile
+
+clean:
+	stack exec $(EXE) clean
 
 setup:
 	stack setup
 
 build:
 	stack build
+
+rebuild:
+	stack exec $(EXE) rebuild
+
+full-build: build rebuild
 
 deploy:
 	git checkout develop
