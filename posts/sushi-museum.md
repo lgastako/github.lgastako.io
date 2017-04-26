@@ -1,6 +1,6 @@
 # Your Production Code Should Be a Sushi Museum
 
-(~~even~~ *especially* in a startup)
+(~~even~~*especially* in a startup)
 
 My titular assertion might seem a controversial claim to some, given the
 proliferation of ideas like "perfect is the enemy of good" in programming these
